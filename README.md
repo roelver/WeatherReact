@@ -1,23 +1,24 @@
-# ReduxSimpleStarter
+# WeatherReact
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This app is a completed version of the Weather app in Stephen Grider's [Modern React with Redux](https://www.udemy.com/react-redux/) course that I can recommend to anyone who wants React/Redux explained clearly.
 
-### Getting Started
+This app is based on Stephen Grider's starter kit for React/Redux, that you can get [here](https://github.com/StephenGrider/ReactStarter)
 
-There are two methods for getting started with this repo.
+This original starter kit is using very old versions of React and other frameworks.
+[Here's a fork](https://github.com/roelver/ReduxSimpleStarter) with updated versions as per August,2 2017.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+#### Use git to clone this app
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/roelver/WeatherReact.git
+> cd WeatherReact
 > npm install
 > npm start
 ```
 
+
 #### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Click [here](https://github.com/roelver/WeatherReact/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
 > npm install

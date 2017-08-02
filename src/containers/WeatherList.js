@@ -7,24 +7,6 @@ import GoogleMap from '../components/GoogleMap';
 
 class WeatherList extends Component {
 
-  renderTemperature(data) {
-    return (
-      <span>{data.temp},</span>
-    );
-  }
-
-  renderPressure(data) {
-    return (
-      <span>{data.pressure},</span>
-    );
-  }
-
-  renderHumidity(data) {
-    return (
-      <span>{data.humidity},</span>
-    );
-  }
-
   renderWeather(citydata) {
     const temp = citydata.list.map(item => item.main.temp - 273.15);
     const pres = citydata.list.map(item => item.main.pressure);
@@ -51,11 +33,6 @@ class WeatherList extends Component {
     );
   }
   renderList() {
-    if (!this.props.weatherList) {
-      return <tr>
-        <td>No weather in the list</td>
-      </tr>;
-    }
     return this.props.weatherList.map(weather => this.renderWeather(weather));
   }
 
